@@ -1,0 +1,178 @@
+body{
+    background-color: #F2F2F2;;
+}
+.container{
+    max-width: 1920px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 41px;
+}
+.search-svg{
+    display: none;
+    background-color: #F8F8F8;
+    border-radius: 50px;
+}
+ul,li {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 48px;
+}
+li:hover{
+    border-bottom: 2px solid #29B24E;
+}
+a{
+    text-decoration: none;
+    color: #000000E5;
+  }
+.sell-button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.sell-button{
+    width: 156px;
+    height: 47px;
+    padding-left: 26px;
+    padding-top: 13px;
+    border-radius: 12px;
+    background-color: #29B24E;
+}
+.first-block{
+    width: 395px;
+    height: 751px;
+    background-color: #f8f8f8;
+    border-radius: 24px;
+
+}
+.first-block-box{
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.first-section{
+    display: flex;
+}
+.second-block{
+    margin-left: 20px;
+}
+.search-div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 20px;
+}
+h4{
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+.second-section-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.second-section-box:hover{
+    border: 2px solid #29B24E;
+}
+.second-section-box{
+    display: inline-block;
+    width: 395px;
+    height: 424px;
+    background-color: #f8f8f8;
+    border-radius: 24px;
+}
+.photo{
+    width: 100%;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.vip-badge{
+    background-color: #29b24e;
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 28px;
+    width: 76px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.save-badge{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 198px;
+    margin-left: 335px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+.save-badge img{
+    width: 18px;
+    height: 18px;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.location{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.price{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 41px;
+    border-top: 2px solid #CFEAD6;;
+}
+.vip-p{
+    margin-top: 6px;
+    margin-left: 11px;
+    font-size: 12px;
+    color: #ffffff;
+}
+footer{
+    background-color: #29B24E;
+    border-radius: 24px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    margin-bottom: 65px;
+    color: #ffffff;
+    margin-top: 120px;
+    border-bottom: 1px solid #D0D0D0;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.footer-wrapper a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-wrapper a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+@media (max-width: 375px){
+    .header-wrapper nav, .sell-button{
+        display: none;
+    }
+    .search-svg{
+        display: flex;
+        justify-content: end;
+    }
+}
