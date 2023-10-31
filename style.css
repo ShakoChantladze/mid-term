@@ -168,11 +168,28 @@ footer{
     border-bottom: 2px solid #ffffff;
 }
 @media (max-width: 375px){
+    .container{
+        max-width: 375px;
+    }
     .header-wrapper nav, .sell-button{
         display: none;
     }
     .search-svg{
         display: flex;
         justify-content: end;
+    }
+    .first-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .search-container{
+        display: none;
+    }
+    .second-block img{
+        max-width: 375px;
+    }
+    .second-section-container{
+        display: flex;
+        flex-direction: column;
     }
 }
