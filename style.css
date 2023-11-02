@@ -1,5 +1,5 @@
 body{
-    background-color: #F2F2F2;;
+    background-color: #F2F2F2;
 }
 .container{
     max-width: 1920px;
@@ -10,6 +10,9 @@ body{
     align-items: center;
     margin-top: 42px;
     margin-bottom: 41px;
+    font-family: 'main-font';
+    font-size: 14px;
+    font-weight: 400;
 }
 .search-svg{
     display: none;
@@ -27,12 +30,16 @@ li:hover{
 a{
     text-decoration: none;
     color: #000000E5;
-  }
+}
+.header-wrapper nav{
+    margin-left: 450px;
+}
 .sell-button a{
     text-decoration: none;
     color: #ffffff;
 }
 .sell-button{
+    margin-left: 450px;
     width: 156px;
     height: 47px;
     padding-left: 26px;
@@ -67,9 +74,22 @@ a{
     position: absolute;
     margin-top: 20px;
 }
+h1{
+    font-family: 'main-font';
+    font-size: 48px;
+    font-weight: 600;
+}
 h4{
+    font-family: 'main-font';
+    font-size: 18px;
+    font-weight: 500;
     margin-top: 32px;
     margin-bottom: 20px;
+}
+h5{
+    font-family: 'main-font';
+    font-size: 16px;
+    font-weight: 500;
 }
 .second-section-container{
     display: grid;
@@ -79,6 +99,7 @@ h4{
 }
 .second-section-box:hover{
     border: 2px solid #29B24E;
+    cursor: pointer;
 }
 .second-section-box{
     display: inline-block;
@@ -102,6 +123,8 @@ h4{
     height: 30px;
     border-radius: 15px;
     font-size: 12px;
+    font-family: 'main-font';
+    font-weight: 500;
 }
 .save-badge{
     position: absolute;
@@ -121,11 +144,17 @@ h4{
 .location{
     margin-top: 20px;
     margin-left: 20px;
+    font-family: 'main-font';
+    font-size: 16px;
+    font-weight: 500;
 }
 .price{
     display: flex;
     justify-content: end;
     margin-right: 20px;
+    font-family: 'main-font';
+    font-size: 24px;
+    font-weight: 500;
 }
 .description{
     display: flex;
@@ -133,7 +162,10 @@ h4{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 41px;
-    border-top: 2px solid #CFEAD6;;
+    border-top: 2px solid #CFEAD6;
+    font-family: 'main-font';
+    font-size: 14px;
+    font-weight: 400;
 }
 .vip-p{
     margin-top: 6px;
@@ -144,6 +176,9 @@ h4{
 footer{
     background-color: #29B24E;
     border-radius: 24px;
+    font-family: 'main-font';
+    font-size: 14px;
+    font-weight: 500;
 }
 .footer-wrapper{
     display: flex;
@@ -167,9 +202,15 @@ footer{
 .footer-wrapper a:hover{
     border-bottom: 2px solid #ffffff;
 }
+.menu-container{
+    display: none;
+    font-family: 'main-font';
+    font-size: 11px;
+    font-weight: 500;
+}
 @media (max-width: 375px){
     .container{
-        max-width: 375px;
+       max-width: 375px;
     }
     .header-wrapper nav, .sell-button{
         display: none;
@@ -191,5 +232,64 @@ footer{
     .second-section-container{
         display: flex;
         flex-direction: column;
+    }
+    .save-badge{
+        margin-right: 50px;
+    }
+    .photo img{
+        width: 303px;
+    }
+    .second-section-box{
+        width: 335px;
+    }
+    .mail{
+        display: none;
+    }
+    .footer-wrapper ul,li{
+        display: flex;
+        flex-direction: column;
+        font-family: 'main-font';
+        font-size: 16px;
+        font-weight: 500;
+    }
+    li{
+        width: 100%;
+    }
+    .menu-container{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        background-color: #FFFFFF;
+        width: 375px;
+        border-top-left-radius:24px; 
+        border-top-right-radius:24px;
+        font-family: 'main-font';
+    }
+    .menu-box{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+    .menu-box-sell{
+        background-color: #29B24E;
+        width: 56px;
+        height: 56px;
+        border-radius: 12px;
+    }
+    h1{
+        font-family: 'main-font';
+        font-size: 24px;
+        font-weight: 600;
+    }
+    h5{
+        font-family: 'main-font';
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .location{
+        font-family: 'main-font';
+        font-size: 14px;
+        font-weight: 500;
     }
 }
