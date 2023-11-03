@@ -215,6 +215,11 @@ footer{
     .header-wrapper nav, .sell-button{
         display: none;
     }
+    .first-block{
+        width: 355px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
     .search-svg{
         display: flex;
         justify-content: end;
@@ -226,21 +231,31 @@ footer{
     .search-container{
         display: none;
     }
+    .second-block{
+        width: 355px;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .search-div{
+        width: 340px;
+    }
     .second-block img{
-        max-width: 375px;
+        max-width: 100%;
     }
     .second-section-container{
         display: flex;
         flex-direction: column;
     }
     .save-badge{
-        margin-right: 50px;
+        margin-left: 290px;
+        padding-right: 25px;
     }
     .photo img{
         width: 303px;
     }
     .second-section-box{
         width: 335px;
+        margin-left: 10px;
     }
     .mail{
         display: none;
@@ -271,7 +286,7 @@ footer{
         grid-template-rows: 1fr 1fr;
         justify-items: center;
     }
-    .menu-box-sell{
+    .sell{
         background-color: #29B24E;
         width: 56px;
         height: 56px;
